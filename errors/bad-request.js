@@ -1,5 +1,5 @@
 import { StatusCodes } from "http-status-codes";
-import CustomErrorApi from "./custom-error-api";
+import CustomErrorApi from "./custom-error-api.js";
 
 class BadRequest extends CustomErrorApi {
   constructor(message) {
